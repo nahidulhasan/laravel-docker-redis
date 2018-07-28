@@ -7,12 +7,25 @@ Simple example: How to use laravel and redis using docker compose
 
  ```Clone the repo```
  
- Run the following command from root directory
- 
+Now run the following commands from from project root directory.Before Running the commands be sure that you have installed docker.You will get install instructions from this
+ [link](https://docs.docker.com/)
+
+```sh
+docker-compose build
+
+```
+
+
+```sh
+docker-compose up -d
+
+```
+
+Now browse project 
+
  ```
- docker-compose build
- docker-compose up -d
- 
- ```
+ http://localhost:8083/
+
+```
 
 Now the system is ready and you can practice redis. You can see the example in routes folder web.php page
