@@ -28,4 +28,4 @@ Now browse project
 
 ```
 
-Now the system is ready and you can practice redis. You can see the example in routes folder web.php page
+Now the system is ready and you can practice redis. You can see the example in routes folder web.php page. If you want to modify database name, password etc, you have to change in docker-compose.yml file.
